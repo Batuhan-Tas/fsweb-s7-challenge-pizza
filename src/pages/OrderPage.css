@@ -1,0 +1,13 @@
+.Order {
+  text-align: center;
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  color: black;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  background-color: #ce2829;
+}

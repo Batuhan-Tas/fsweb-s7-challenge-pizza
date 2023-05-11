@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Quattrocento:wght@700&family=Satisfy&display=swap');
+
+
+
+
 .App {
   text-align: center;
+  background-color: red;
+  background-image: url('./mvp-banner.png');
+  background-size: cover;
+  height: 100vh;
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +46,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App h1 {
+  font-family: 'Quattrocento', serif;
+}
+
+.App h2{
+  font-family: 'Quattrocento', serif;
+  
+}
+
+
+

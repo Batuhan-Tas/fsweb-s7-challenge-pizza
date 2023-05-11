@@ -14,7 +14,6 @@ import * as Yup from "yup";
 
 const Forms = () => {
   let [orderList, setOrderList] = useState([]);
-  let [agree, setAgree] = useState(false);
   let [pizza, setPizza] = useState({
     name: "",
     size: "",
@@ -32,10 +31,6 @@ const Forms = () => {
     size: Yup.string().required("Bir Pizza boyu seçmeniz gerek!"),
     hamur: Yup.string().required("Hamur seçimi yapmanız gerek!"),
   });
-
-  const checkboxHandler = () => {
-    setAgree(!agree);
-  };
 
   const inputChangeHandler = (e) => {
     const { name, value } = e.target;
@@ -107,7 +102,7 @@ const Forms = () => {
             id="kucuk"
             name="secim"
             value="kucuk"
-            checked={true}
+            checked={null}
           />
           <label htmlFor="kucuk">Küçük</label>
           <br />
@@ -117,7 +112,7 @@ const Forms = () => {
             id="orta"
             name="secim"
             value="orta"
-            checked={true}
+            checked={null}
           />
           <label htmlFor="orta">Orta</label>
           <br />
@@ -127,7 +122,7 @@ const Forms = () => {
             id="buyuk"
             name="secim"
             value="buyuk"
-            checked={true}
+            checked={null}
           />
           <label htmlFor="buyuk">Büyük</label>
           <br />
@@ -203,7 +198,9 @@ const Forms = () => {
           />
         </FormGroup>
         <br />
-        <Button id="order-button">Sipariş Ver</Button>
+        <Button id="order-button" href="/validation">
+          Sipariş Ver
+        </Button>
       </Form>
     </div>
   );

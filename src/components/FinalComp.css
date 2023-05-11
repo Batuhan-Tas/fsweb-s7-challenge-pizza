@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Quattrocento:wght@700&family=Satisfy&display=swap");
+
+.Mid {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Quattrocento", serif;
+}

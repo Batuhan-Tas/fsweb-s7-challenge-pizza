@@ -7,7 +7,23 @@
 }
 
 .Header {
+  background-color: #ce2829;
+}
+
+.Header h1 {
+  text-align: center;
+}
+
+.Bar {
   display: flex;
   justify-content: center;
-  background-color: #ce2829;
+}
+
+.Bar ul {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  width: 500px;
+  text-decoration: none;
+  justify-content: center;
 }

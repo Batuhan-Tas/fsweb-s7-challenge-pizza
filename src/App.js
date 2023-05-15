@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div class="App">
+    <div className="App">
       <Switch>
         <Route path="/pizza">
           <OrderPage />
@@ -16,6 +16,9 @@ const App = () => {
           <FinalPage />
         </Route>
         <Route path="/">
+          <MainPage />
+        </Route>
+        <Route path="*">
           <MainPage />
         </Route>
       </Switch>

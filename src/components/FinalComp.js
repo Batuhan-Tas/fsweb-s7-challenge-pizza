@@ -6,8 +6,8 @@ const FinalComp = () => {
     <div>
       <br />
       <h1>Teknolojik Yemekler</h1>
-      <h2 class="Mid">TEBRİKLER!</h2>
-      <h2 class="Mid">SİPARİŞİNİZ ALINDI</h2>
+      <h2 className="Mid">TEBRİKLER!</h2>
+      <h2 className="Mid">SİPARİŞİNİZ ALINDI</h2>
     </div>
   );
 };

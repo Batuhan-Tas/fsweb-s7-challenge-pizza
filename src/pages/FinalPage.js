@@ -4,7 +4,7 @@ import "./FinalPage.css";
 
 const Final = () => {
   return (
-    <div class="PageFinal">
+    <div className="PageFinal">
       <FinalComp />
     </div>
   );
